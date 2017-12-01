@@ -3,8 +3,8 @@ package pl.tomaszpanek.aplikacjeinternetowe.domain.model.forum;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import pl.tomaszpanek.aplikacjeinternetowe.domain.model.AppUser;
 import pl.tomaszpanek.aplikacjeinternetowe.domain.model.BaseEntity;
+import pl.tomaszpanek.aplikacjeinternetowe.domain.model.user.AppUser;
 
 import javax.persistence.*;
 import java.util.ArrayList;
