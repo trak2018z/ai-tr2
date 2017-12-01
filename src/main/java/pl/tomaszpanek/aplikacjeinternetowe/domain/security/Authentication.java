@@ -1,4 +1,4 @@
-package pl.tomaszpanek.aplikacjeinternetowe.domain.secuity;
+package pl.tomaszpanek.aplikacjeinternetowe.domain.security;
 
 import io.jsonwebtoken.Jwts;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

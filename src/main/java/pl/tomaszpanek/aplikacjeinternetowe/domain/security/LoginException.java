@@ -1,4 +1,4 @@
-package pl.tomaszpanek.aplikacjeinternetowe.domain.secuity;
+package pl.tomaszpanek.aplikacjeinternetowe.domain.security;
 
 import org.springframework.security.core.AuthenticationException;
 

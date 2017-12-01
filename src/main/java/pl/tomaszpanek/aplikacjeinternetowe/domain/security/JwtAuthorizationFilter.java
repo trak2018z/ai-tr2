@@ -1,4 +1,4 @@
-package pl.tomaszpanek.aplikacjeinternetowe.domain.secuity;
+package pl.tomaszpanek.aplikacjeinternetowe.domain.security;
 
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -10,7 +10,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-
 
 public class JwtAuthorizationFilter extends BasicAuthenticationFilter {
 

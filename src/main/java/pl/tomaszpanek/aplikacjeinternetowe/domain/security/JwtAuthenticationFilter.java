@@ -1,4 +1,4 @@
-package pl.tomaszpanek.aplikacjeinternetowe.domain.secuity;
+package pl.tomaszpanek.aplikacjeinternetowe.domain.security;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.jsonwebtoken.Jwts;
@@ -9,8 +9,8 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 import pl.tomaszpanek.aplikacjeinternetowe.domain.exception.AuthenticationException;
-import pl.tomaszpanek.aplikacjeinternetowe.domain.model.AppUser;
-import pl.tomaszpanek.aplikacjeinternetowe.domain.repository.AppUserRepository;
+import pl.tomaszpanek.aplikacjeinternetowe.domain.model.user.AppUser;
+import pl.tomaszpanek.aplikacjeinternetowe.domain.repository.user.AppUserRepository;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

@@ -1,4 +1,4 @@
-package pl.tomaszpanek.aplikacjeinternetowe.domain.secuity.web;
+package pl.tomaszpanek.aplikacjeinternetowe.domain.security.web;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -12,10 +12,10 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
-import pl.tomaszpanek.aplikacjeinternetowe.domain.repository.AppUserRepository;
-import pl.tomaszpanek.aplikacjeinternetowe.domain.secuity.JwtAuthenticationFilter;
-import pl.tomaszpanek.aplikacjeinternetowe.domain.secuity.JwtAuthorizationFilter;
-import pl.tomaszpanek.aplikacjeinternetowe.domain.secuity.SecurityConstants;
+import pl.tomaszpanek.aplikacjeinternetowe.domain.repository.user.AppUserRepository;
+import pl.tomaszpanek.aplikacjeinternetowe.domain.security.JwtAuthenticationFilter;
+import pl.tomaszpanek.aplikacjeinternetowe.domain.security.JwtAuthorizationFilter;
+import pl.tomaszpanek.aplikacjeinternetowe.domain.security.SecurityConstants;
 
 @Configuration
 @EnableWebSecurity
