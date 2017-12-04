@@ -42,6 +42,7 @@ public class Mapper {
                         .id(c.getId())
                         .name(c.getName())
                         .owner(c.getOwner().getUsername())
+                        .description(c.getDescription())
                         .subCategories(Hibernate.isInitialized(c.getSubCategories()) ? c
                                 .getSubCategories()
                                 .stream()
@@ -59,6 +60,7 @@ public class Mapper {
                                 .id(sb.getId())
                                 .name(sb.getName())
                                 .owner(sb.getOwner().getUsername())
+                                .description(sb.getDescription())
                                 .topics(Hibernate.isInitialized(sb.getTopics()) ? sb
                                         .getTopics()
                                         .stream()
